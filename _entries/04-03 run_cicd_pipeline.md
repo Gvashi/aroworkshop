@@ -15,7 +15,7 @@ On OpenShift Web Console, Navigate to project `CICD`. From the side navigation m
 
 You will see there is a pipeline, named `tasks-pipeline`. Click on the name of the pipeline, then you will see the pipeline overview page. In the tab `Configuration`, you will see the definition of the pipeline.
 
-![Pipeline Definition](media/cicd-definition.png)
+![Pipeline Definition](../media/cicd-definition.png)
 
 To run the pipeline, click on button `Start Pipeline`, which is on the top right corner. Then Azure Red Hat OpenShift will start a new execution instance for that pipeline.
 
@@ -29,11 +29,11 @@ After triggering a pipeline execution, please monitor the execution on the web c
 
 You will see the execution result of each stage of the pipeline.
 
-![Pipeline Execution](media/cicd-pipeline-view.png)
+![Pipeline Execution](../media/cicd-pipeline-view.png)
 
 For detail information, you can click on the link `View Log` of a execution instance to review the real time log output. After clicking `View Log`, you will be navigated to the Jenkins login page. Login with OpenShift credentials and grant all the required permissions to Jenkins, then you will see the log output in Jenkins.
 
-![Pipeline Logs](media/cicd-jenkins-log.png)
+![Pipeline Logs](../media/cicd-jenkins-log.png)
 
 {% endcollapsible %}
 
@@ -44,7 +44,7 @@ You may define steps which required user intervention. You can either approve th
 {% collapsible %}
 When the pipeline execution runs to stage 'Promote to STAGE?' You will see the pipeline is paused and asking for your input.
 
-![Approve Pipeline Task](media/cicd-approve.png)
+![Approve Pipeline Task](../media/cicd-approve.png)
 
 Click on the link `Input Required` , and you will be navigated to Jenkins. Click button `Promote` in Jenkins to approve the task.
 {% endcollapsible %}
@@ -56,7 +56,7 @@ After the pipeline execution is completed, please review the execution result on
 {% collapsible %}
 If everything works fine, you will be albe to see all pipeline stages completed successfully, as it shown below. The sample application was built and deployed into project `Dev` and `Stage`.
 
-![CiCD Result](media/cicd-pipeline-result.png)
+![CiCD Result](../media/cicd-pipeline-result.png)
 
 You can checkout the status of the application pods in project `Dev` and `Stage`. Following are the commands and sample output.
 ```sh
