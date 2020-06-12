@@ -11,19 +11,19 @@ parent-id: intro
 
 If you have been provided with a Microsoft Hands-on Labs environment for this workshop through a registration link and an activation code, please continue to registration and activate the lab.
 
-![Registration](media/managedlab/0-registration.png)
+![Registration](../media/managedlab/0-registration.png)
 
 After you complete the registration, click Launch Lab
 
-![Launch lab](media/managedlab/1-launchlab.png)
+![Launch lab](../media/managedlab/1-launchlab.png)
 
 The Azure subscription and associated lab credentials will be provisioned. This will take a few moments. This process will also provision an Azure Red Hat OpenShift cluster.
 
-![Preparing lab](media/managedlab/2-preparinglab.png)
+![Preparing lab](../media/managedlab/2-preparinglab.png)
 
 Once the environment is provisioned, a screen with all the appropriate lab credentials will be presented. Additionally, you'll have your Azure Red Hat OpenShift cluster endpoint. The credentials will also be emailed to the email address entered at registration.
 
-![Credentials](media/managedlab/3-credentials.png)
+![Credentials](../media/managedlab/3-credentials.png)
 
 You can now skip the **Create cluster** section and jump to [create project](#createproject).
 
@@ -41,15 +41,15 @@ Head over to <https://shell.azure.com> and sign in with your Azure Subscription 
 
 Select **Bash** as your shell.
 
-![Select Bash](media/cloudshell/0-bash.png)
+![Select Bash](../media/cloudshell/0-bash.png)
 
 Select **Show advanced settings**
 
-![Select show advanced settings](media/cloudshell/1-mountstorage-advanced.png)
+![Select show advanced settings](../media/cloudshell/1-mountstorage-advanced.png)
 
 Set the **Storage account** and **File share** names to your resource group name (all lowercase, without any special characters). Leave other settings unchanged, then hit **Create storage**
 
-![Azure Cloud Shell](media/cloudshell/2-storageaccount-fileshare.png)
+![Azure Cloud Shell](../media/cloudshell/2-storageaccount-fileshare.png)
 
 You should now have access to the Azure Cloud Shell
 
