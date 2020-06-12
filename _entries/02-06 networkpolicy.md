@@ -12,7 +12,7 @@ Now that you have the application working, it is time to apply some security har
 {% collapsible %}
 
 Switch to the **Cluster Console** page. Switch to project **workshop**. Click **Create Network Policy**.
-![Cluster console page](media/cluster-console.png)
+![Cluster console page](../media/cluster-console.png)
 
 {% endcollapsible %}
 
@@ -41,7 +41,7 @@ spec:
               app: rating-web
 ```
 
-![Create network policy](media/create-networkpolicy.png)
+![Create network policy](../media/create-networkpolicy.png)
 
 Click **Create**.
 
