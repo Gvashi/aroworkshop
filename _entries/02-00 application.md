@@ -7,7 +7,7 @@ parent-id: lab-ratingapp
 
 You will be deploying a ratings application on Azure Red Hat OpenShift.
 
-![Application diagram](media/app-overview.png)
+![Application diagram](../media/app-overview.png)
 
 The application consists of 3 components:
 
@@ -19,6 +19,6 @@ The application consists of 3 components:
 
 Once you're done, you'll have an experience similar to the below.
 
-![Application](media/app-overview-1.png)
-![Application](media/app-overview-2.png)
-![Application](media/app-overview-3.png)
+![Application](../media/app-overview-1.png)
+![Application](../media/app-overview-2.png)
+![Application](../media/app-overview-3.png)
