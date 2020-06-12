@@ -27,7 +27,7 @@ You should get back something like `openshift.77f472f620824da084be.eastus.azmosa
 
 After logging in, you should be able to see the Azure Red Hat OpenShift Web Console.
 
-![Azure Red Hat OpenShift Web Console](media/openshift-webconsole.png)
+![Azure Red Hat OpenShift Web Console](../media/openshift-webconsole.png)
 
 {% endcollapsible %}
 
@@ -39,11 +39,11 @@ After logging in, you should be able to see the Azure Red Hat OpenShift Web Cons
 
 Once you're logged into the Web Console, click on the username on the top right, then click **Copy login command**.
 
-![Copy login command](media/login-command.png)
+![Copy login command](../media/login-command.png)
 
 Open the [Azure Cloud Shell](https://shell.azure.com) and paste the login command. You should be able to connect to the cluster.
 
-![Login through the cloud shell](media/oc-login-cloudshell.png)
+![Login through the cloud shell](../media/oc-login-cloudshell.png)
 
 {% endcollapsible %}
 
@@ -57,7 +57,7 @@ A project allows a community of users to organize and manage their content in is
 oc new-project workshop
 ```
 
-![Create new project](media/oc-newproject.png)
+![Create new project](../media/oc-newproject.png)
 
 
 {% endcollapsible %}
