@@ -33,7 +33,7 @@ oc process openshift//mongodb-persistent \
 
 If you now head back to the web console, you should see a new deployment for mongoDB.
 
-![MongoDB deployment](media/mongodb-overview.png)
+![MongoDB deployment](../media/mongodb-overview.png)
 
 {% endcollapsible %}
 
@@ -47,7 +47,7 @@ Run the `oc status` command to view the status of the new application and verify
 oc status
 ```
 
-![oc status](media/oc-status-mongodb.png)
+![oc status](../media/oc-status-mongodb.png)
 
 {% endcollapsible %}
 
@@ -61,13 +61,13 @@ Find the mongoDB service.
 oc get svc mongodb
 ```
 
-![oc get svc](media/oc-get-svc-mongo.png)
+![oc get svc](../media/oc-get-svc-mongo.png)
 
 The service will be accessible at the following DNS name: `mongodb.workshop.svc.cluster.local` which is formed of `[service name].[project name].svc.cluster.local`. This resolves only within the cluster.
 
 You can also retrieve this from the web console. You'll need this hostname to configure the `rating-api`.
 
-![MongoDB service in the Web Console](media/mongo-svc-webconsole.png)
+![MongoDB service in the Web Console](../media/mongo-svc-webconsole.png)
 
 {% endcollapsible %}
 
