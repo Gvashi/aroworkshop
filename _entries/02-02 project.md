@@ -15,7 +15,7 @@ Run the below commands on the ***Command Prompt***
 
 ```Az login```
 
-Now a browser popup will come, after that enter the below credentials to login the azure portal.
+Now, you will see a popup window, in that enter the following credentials to login the azure portal.
 
 * Azure Usename/Email: <inject key="AzureAdUserEmail"></inject>
 * Azure Password: <inject key="AzureAdUserPassword"></inject>
