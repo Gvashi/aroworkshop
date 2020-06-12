@@ -7,7 +7,7 @@ parent-id: lab-ratingapp
 
 ### Scale the Azure Red Hat OpenShift cluster
 
-You can scale the number of application nodes in the cluster using the Azure CLI.
+You can scale the number of application nodes in the cluster using the Command Prompt.
 
 Run the below on the ***Command Prompt*** to scale your cluster to 5 application nodes. Replace `<cluster name>` and `<resource group name>` with your applicable values. After a few minutes, `az openshift scale` will complete successfully and return a JSON document containing the scaled cluster details.
 
