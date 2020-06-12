@@ -7,7 +7,6 @@ parent-id: intro
 
 ### Azure subscription and Azure Red Hat OpenShift environment
 
-{% collapsible %}
 
 If you have been provided with a Microsoft Hands-on Labs environment for this workshop through a registration link and an activation code, please continue to registration and activate the lab.
 
@@ -27,7 +26,6 @@ Once the environment is provisioned, a screen with all the appropriate lab crede
 
 You can now skip the **Create cluster** section and jump to [create project](#createproject).
 
-{% endcollapsible %}
 
 ### Tools
 
@@ -35,7 +33,6 @@ You can now skip the **Create cluster** section and jump to [create project](#cr
 
 You can use the Azure Cloud Shell accessible at <https://shell.azure.com> once you login with an Azure subscription.
 
-{% collapsible %}
 
 Head over to <https://shell.azure.com> and sign in with your Azure Subscription details.
 
@@ -53,18 +50,16 @@ Set the **Storage account** and **File share** names to your resource group name
 
 You should now have access to the Azure Cloud Shell
 
-![Set the storage account and fileshare names](media/cloudshell/3-cloudshell.png)
+![Set the storage account and fileshare names](../media/cloudshell/3-cloudshell.png)
 
-{% endcollapsible %}
 
 #### OpenShift CLI (oc)
 
 You'll need to [download the latest OpenShift CLI (oc)](https://github.com/openshift/origin/releases/tag/v3.11.0) client tools for OpenShift 3.11. You can follow the steps below on the Azure Cloud Shell.
 
-{% collapsible %}
 
 > **Note** You'll need to change the link below to the latest link you get from the page.
-> ![GitHub release links](media/github-oc-release.png)
+> ![GitHub release links](../media/github-oc-release.png)
 
 Please run following commands on Azure Cloud Shell to download and setup the OpenShift client.
 
@@ -82,7 +77,6 @@ echo 'export PATH=$PATH:~/openshift' >> ~/.bashrc && source ~/.bashrc
 
 The OpenShift CLI (oc) is now installed.
 
-{% endcollapsible %}
 
 #### GitHub Account
 You'll need a personal GitHub account. You can sign up for free [here](https://github.com/join).
