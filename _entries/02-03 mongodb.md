@@ -1,13 +1,6 @@
----
-sectionid: mongodb
-sectionclass: h2
-title: Deploy MongoDB
-parent-id: lab-ratingapp
----
 
 ### Create mongoDB from template
 
-{% collapsible %}
 Azure Red Hat OpenShift provides a container image and template to make creating a new MongoDB database service easy. The template provides parameter fields to define all the mandatory environment variables (user, password, database name, etc) with predefined defaults including auto-generation of password values. It will also define both a deployment configuration and a service.
 
 There are two templates available:
@@ -35,11 +28,9 @@ If you now head back to the web console, you should see a new deployment for mon
 
 ![MongoDB deployment](../media/mongodb-overview.png)
 
-{% endcollapsible %}
 
 ### Verify if the mongoDB pod was created successfully
 
-{% collapsible %}
 
 Run the `oc status` command to view the status of the new application and verify if the deployment of the mongoDB template was successful.
 
@@ -49,11 +40,9 @@ oc status
 
 ![oc status](../media/oc-status-mongodb.png)
 
-{% endcollapsible %}
 
 ### Retrieve mongoDB service hostname
 
-{% collapsible %}
 
 Find the mongoDB service.
 
@@ -69,7 +58,6 @@ You can also retrieve this from the web console. You'll need this hostname to co
 
 ![MongoDB service in the Web Console](../media/mongo-svc-webconsole.png)
 
-{% endcollapsible %}
 
 > **Resources**
 > * [ARO Documentation - MongoDB](https://docs.openshift.com/aro/using_images/db_images/mongodb.html)
