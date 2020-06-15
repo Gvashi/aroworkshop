@@ -1,9 +1,3 @@
----
-sectionid: appoverview
-sectionclass: h2
-title: Application Overview
-parent-id: lab-ratingapp
----
 
 You will be deploying a ratings application on Azure Red Hat OpenShift.
 
