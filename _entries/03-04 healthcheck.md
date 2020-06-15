@@ -1,13 +1,7 @@
----
-sectionid: lab2-heathcheck
-sectionclass: h2
-title: Exploring Health Checks
-parent-id: lab-clusterapp
----
+
 
 In this section we will intentionally crash our pods as well as make a pod non-responsive to the liveness probes and see how Kubernetes behaves.  We will first intentionally crash our pod and see that Kubernetes will self-heal by immediately spinning it back up. Then we will trigger the health check by stopping the response on the `/health` endpoint in our app. After three consecutive failures, Kubernetes should kill the pod and then recreate it.
 
-{% collapsible %}
 
 It would be best to prepare by splitting your screen between the OpenShift Web UI and the OSToy application so that you can see the results of our actions immediately.
 
@@ -39,4 +33,3 @@ This will cause the app to stop responding with a "200 HTTP code". After 3 such 
 
 ![Pod Events2](/media/managedlab/16-ostoy-podevents2.png)
 
-{% endcollapsible %}
