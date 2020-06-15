@@ -1,10 +1,3 @@
----
-sectionid: createcluster
-sectionclass: h2
-title: Create cluster
-parent-id: lab-ratingapp
----
-
 ### Create an Azure Active Directory tenant for your cluster 
 
 Microsoft Azure Red Hat OpenShift requires an [Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant) tenant to create your cluster. A tenant is a dedicated instance of Azure AD that an organization or app developer receives when they create a relationship with Microsoft by signing up for Azure, Microsoft Intune, or Microsoft 365. Each Azure AD tenant is distinct and separate from other Azure AD tenants and has its own work and school identities and app registrations.
@@ -13,7 +6,6 @@ If you have **Administrator** access to your organization's Azure Active Directo
 
 #### Create Azure Active Directory tenant
 
-{% collapsible %}
 
 1. Sign in to the Azure portal using the account you wish to associate with your Azure Red Hat OpenShift cluster, go to <https://portal.azure.com>
 
@@ -33,13 +25,11 @@ If you have **Administrator** access to your organization's Azure Active Directo
 
     In the portal, you should now see the Azure Active Directory overview blade for your new tenant. Select Properties and copy the value for your Directory ID.
 
-{% endcollapsible %}
 
 Microsoft Azure Red Hat OpenShift needs permissions to perform tasks on behalf of your cluster. If your organization doesn’t already have an Azure Active Directory (Azure AD) user, Azure AD security group, or an Azure AD app registration to use as the service principal, follow these instructions to create them.
 
 #### Create the administrator user
 
-{% collapsible %}
 
 In the Azure portal, ensure that your tenant appears under your user name in the top right of the portal:
 
@@ -61,13 +51,11 @@ If the wrong tenant is displayed, click your user name in the top right, then cl
 
 1. At the bottom of the pane, click **Create** to create the user.
 
-{% endcollapsible %}
 
 To grant cluster admin access, memberships in an Azure AD security group are synced into the OpenShift group `osa-customer-admins`. If not specified, no cluster admin access will be granted.
 
 #### Create the administrator security group
 
-{% collapsible %}
 
 1. Open the [Azure Active Directory groups](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) blade.
 
@@ -89,13 +77,11 @@ To grant cluster admin access, memberships in an Azure AD security group are syn
 
 1. On the page that appears, make note of the **Object ID**. You'll refer to this as `<group id>` when creating the cluster.
 
-{% endcollapsible %}
 
 If your organization doesn’t already have an Azure Active Directory (Azure AD) app registration to use as a service principal, follow these instructions to create one.
 
 #### Create an Azure Active Directory app registration for authentication
 
-{% collapsible %}
 
 1. Open the [App registrations blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview) and click **+New** registration.
 
@@ -112,13 +98,11 @@ organizational directory only** is selected. This is the most secure choice.
 
     ![App registration](../media/app-registration.png)
 
-{% endcollapsible %}
 
 Generate a client secret for authenticating your app to Azure Active Directory.
 
 #### Create a client secret
 
-{% collapsible %}
 
 1. In the Manage section of the app registrations page, click Certificates & secrets.
 
@@ -134,11 +118,9 @@ Generate a client secret for authenticating your app to Azure Active Directory.
 
     ![Client secret](../media/client-secret.png)
 
-{% endcollapsible %}
 
 #### Add API permissions
 
-{% collapsible %}
 
 1. In the Manage section click **API permissions**.
 
@@ -162,7 +144,6 @@ next to Directory.ReadAll.
 
     ![Grant Admin consent](../media/grant-consent.png)
 
-{% endcollapsible %}
 
 The Microsoft.ContainerService AROGA feature, Microsoft.Solutions , Microsoft.Compute , Microsoft.Storage , Microsoft.KeyVault, and Microsoft.Network providers must be registered to your subscription manually before deploying your first Azure Red Hat OpenShift cluster.
 
@@ -170,7 +151,6 @@ To register these providers and features manually, use the following instruction
 
 #### Register subscription providers and features
 
-{% collapsible %}
 
 ```bash
 az feature register --namespace Microsoft.ContainerService -n
@@ -183,11 +163,9 @@ az provider register -n Microsoft.KeyVault --wait
 az provider register -n Microsoft.ContainerService --wait
 ```
 
-{% endcollapsible %}
 
 #### Create the cluster
 
-{% collapsible %}
 
 1. Create a resource group to hold the resources, for example in East US.
 
@@ -210,13 +188,11 @@ az provider register -n Microsoft.ContainerService --wait
         --customer-admin-group-id <group id>
     ```
 
-{% endcollapsible %}
 
 To be able to login to the cluster, you’ll need to update the app registration you created with the sign in URL of your cluster. This will enable Azure Active Directory authentication to properly redirect back to your cluster's web console after successful authentication.
 
 #### Update your app registration redirect URI
 
-{% collapsible %}
 
 1. Get the sign in URL for your cluster. Replace `<cluster name>` with the name of your cluster.
 
@@ -238,5 +214,3 @@ redirect UI. Open the [App registrations](https://portal.azure.com/#blade/Micros
     ![Grant Admin consent](../media/redirect-uri.png)
 
 1. Click Save.
-
-{% endcollapsible %}
