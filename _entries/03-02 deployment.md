@@ -5,7 +5,7 @@
 If not logged in via the CLI, click on the dropdown arrow next to your name in the top-right and select *Copy Login Command*.
 
 
-![CLI Login](/media/managedlab/7-ostoy-login.png)
+![CLI Login](../media/managedlab/7-ostoy-login.png)
 
 Then go to your terminal and paste that command and press enter.  You will see a similar confirmation message if you successfully logged in.
 
@@ -45,7 +45,7 @@ to build a new example application in Ruby.
 
 Equivalently you can also create this new project using the web UI by selecting "Application Console" at the top  then clicking on "+Create Project" button on the right.
 
-![UI Create Project](/media/managedlab/6-ostoy-newproj.png)
+![UI Create Project](../media/managedlab/6-ostoy-newproj.png)
 
 
 ### Download YAML configuration
