@@ -1,9 +1,3 @@
----
-sectionid: lab2-appoverview
-sectionclass: h2
-title: Application Overview
-parent-id: lab-clusterapp
----
 
 ### Resources
 
