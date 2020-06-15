@@ -21,7 +21,7 @@ Once the environment is provisioned, a screen with all the appropriate lab crede
 You can now skip the **Create cluster** section and jump to [create project](#createproject).
 
 
-### Tools
+***Tools***
 
 #### Azure Cloud Shell
 
