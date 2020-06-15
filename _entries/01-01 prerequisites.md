@@ -1,5 +1,5 @@
 
-### Azure subscription and Azure Red Hat OpenShift environment
+### ***Azure subscription and Azure Red Hat OpenShift environment***
 
 
 If you have been provided with a Microsoft Hands-on Labs environment for this workshop through a registration link and an activation code, please continue to registration and activate the lab.
