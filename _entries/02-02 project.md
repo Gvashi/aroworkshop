@@ -1,13 +1,6 @@
----
-sectionid: createproject
-sectionclass: h2
-title: Create Project
-parent-id: lab-ratingapp
----
 
 ### Login to the web console
 
-{% collapsible %}
 
 In the LabVM Open Command Prompt
 
@@ -40,11 +33,9 @@ After logging in, you should be able to see the Azure Red Hat OpenShift Web Cons
 
 ![Azure Red Hat OpenShift Web Console](../media/openshift-webconsole.png)
 
-{% endcollapsible %}
 
 ### Retrieve the login command and token
 
-{% collapsible %}
 
 > **Note** Make sure you complete the [prerequisites](#prereq) to install the OpenShift CLI on the Azure Cloud Shell.
 
@@ -56,11 +47,9 @@ Open the [Azure Cloud Shell](https://shell.azure.com) and paste the login comman
 
 ![Login through the cloud shell](../media/oc-login-cloudshell.png)
 
-{% endcollapsible %}
 
 ### Create a project
 
-{% collapsible %}
 
 A project allows a community of users to organize and manage their content in isolation from other communities.
 
@@ -71,7 +60,6 @@ oc new-project workshop
 ![Create new project](../media/oc-newproject.png)
 
 
-{% endcollapsible %}
 
 > **Resources**
 > * [ARO Documentation - Access your services](https://docs.openshift.com/aro/getting_started/access_your_services.html)
