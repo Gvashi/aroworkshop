@@ -1,13 +1,7 @@
----
-sectionid: lab2-storage
-sectionclass: h2
-title: Persistent Storage
-parent-id: lab-clusterapp
----
+
 
 In this section we will execute a simple example of using persistent storage by creating a file that will be stored on a persistent volume in our cluster and then confirm that it will "persist" across pod failures and recreation.
 
-{% collapsible %}
 
 Inside the OpenShift web UI click on *Storage* in the left menu. You will then see a list of all persistent volume claims that our application has made.  In this case there is just one called "ostoy-pvc".  You will also see other pertinent information such as whether it is bound or not, size, access mode and age.  
 
@@ -67,4 +61,3 @@ Azure Red Hat OpenShift is the greatest thing since sliced bread!
 
 Then exit the SSH session by typing `exit`. You will then be in your CLI.
 
-{% endcollapsible %}
