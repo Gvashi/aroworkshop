@@ -1,9 +1,4 @@
----
-sectionid: lab2-logging
-sectionclass: h2
-title: Logging and Metrics
-parent-id: lab-clusterapp
----
+
 
 Assuming you can access the application via the Route provided and are still logged into the CLI (please go back to part 2 if you need to do any of those) we'll start to use this application.  As stated earlier, this application will allow you to "push the buttons" of OpenShift and see how it works.  We will do this to test the logs.
 
@@ -17,7 +12,7 @@ Click in the message box for "Log Message (stderr)" and write any message you wa
 
 ### View logs directly from the pod
 
-{% collapsible %}
+
 
 Go to the CLI and enter the following command to retrieve the name of your frontend pod which we will use to view the pod logs:
 
@@ -40,11 +35,11 @@ stderr: Oh no! Error!
 
 You should see both the *stdout* and *stderr* messages.
 
-{% endcollapsible %}
+
 
 ### View logs using Azure Monitor Integration
 
-{% collapsible %}
+
 
 One can use the native Azure service, Azure Monitor, to view and keep application logs along with metrics. This lab assumes that the cluster was already configured to use Azure Monitor for application logs at cluster creation.  If you want more information on how to connect this for a new or existing cluster see the docs here: (https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-azure-redhat-setup)
 
@@ -73,12 +68,10 @@ In the bottom pane you will see the results of the application logs returned.  Y
 
 ![container logs](/media/managedlab/31-ostoy-logout.png)
 
-{% endcollapsible %}
 
 
 ### View Metrics using Azure Monitor Integration
 
-{% collapsible %}
 
 Click on "Containers" in the left menu under Insights.
 
@@ -100,4 +93,3 @@ You will see the 2 pods we have, one for the front-end and one for the microserv
 
 ![container metrics](/media/managedlab/28-ostoy-metrics.png)
 
-{% endcollapsible %}
