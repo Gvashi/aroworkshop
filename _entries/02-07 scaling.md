@@ -1,9 +1,3 @@
----
-sectionid: scaling
-sectionclass: h2
-title: Scaling ARO Cluster
-parent-id: lab-ratingapp
----
 
 ### Scale the Azure Red Hat OpenShift cluster
 
