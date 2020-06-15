@@ -1,9 +1,3 @@
----
-sectionid: lab3-cdcd-demo-overview
-sectionclass: h2
-title: CI/CD Demo Overview
-parent-id: lab-cicd
----
 
 ### CI/CD 
 
@@ -26,7 +20,7 @@ Following components will be deployed onto your Azure Red Hat OpenShift cluster.
 
 The following diagram shows the steps included in the deployment pipeline:
 
-![CI/CD Demo Diagram](/media/cicd-pipeline-diagram.png)
+![CI/CD Demo Diagram](../media/cicd-pipeline-diagram.png)
 
 On every pipeline execution, the code goes through the following steps:
 
