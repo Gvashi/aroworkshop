@@ -124,5 +124,5 @@ ostoy-route   ostoy-route-ostoy.apps.abcd1234.eastus.azmosa.io             ostoy
 
 Copy `ostoy-route-ostoy.apps.abcd1234.eastus.azmosa.io` above and paste it into your browser and press enter.  You should see the homepage of our application.
 
-![Home Page](/media/managedlab/10-ostoy-homepage.png)
+![Home Page](../media/managedlab/10-ostoy-homepage.png)
 
