@@ -6,6 +6,7 @@ Once the environment is provisioned, a virtual machine and labguide will get loa
 
 ![Credentials](../media/environmentpage.png)
 
+Now that you have your environment provisioned and the prerequisites fulfilled, it is time to start working on the labs.
 You can now skip the **Create cluster** section and jump to **Create Project**
 
 
