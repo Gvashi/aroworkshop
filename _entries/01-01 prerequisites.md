@@ -4,7 +4,7 @@
 
 Once the environment is provisioned, a virtual machine and labguide will get loaded in your browser. For getting the lab environment details you can select Lab Environment tab. Additionally, You’ll have your Azure Red Hat OpenShift cluster endpoint. The credentials will also be emailed to the email address entered at registration.
 
-![Credentials](../media/environment.png)
+![Credentials](../media/environmentpage.png)
 
 You can now skip the **Create cluster** section and jump to **Create Project**
 
