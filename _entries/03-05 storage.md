@@ -1,4 +1,4 @@
-## **3.4 Persistent Storage** ##
+## **3.5 Persistent Storage** ##
 
 In this section we will execute a simple example of using persistent storage by creating a file that will be stored on a persistent volume in our cluster and then confirm that it will "persist" across pod failures and recreation.
 
