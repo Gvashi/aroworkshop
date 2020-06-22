@@ -1,4 +1,4 @@
-
+## **3.1 Application Overview** ##
 ### Resources
 
 - The source code for this app is available here: <https://github.com/openshift-cs/ostoy>
