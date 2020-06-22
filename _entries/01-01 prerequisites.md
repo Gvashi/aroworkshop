@@ -1,5 +1,5 @@
-
-### ***Azure subscription and Azure Red Hat OpenShift environment***
+## 1.1 Prerequisites ##
+### **Azure subscription and Azure Red Hat OpenShift environment**
 
 
 Once the environment is provisioned, a virtual machine and labguide will get loaded in your browser. For getting the lab environment details you can select Lab Environment tab. Additionally, You’ll have your Azure Red Hat OpenShift cluster endpoint. The credentials will also be emailed to the email address entered at registration.
