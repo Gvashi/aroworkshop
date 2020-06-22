@@ -1,4 +1,4 @@
-## 1.1 Prerequisites ##
+## **1.1 Prerequisites** ##
 ### **Azure subscription and Azure Red Hat OpenShift environment**
 
 
