@@ -1,4 +1,4 @@
-
+## **4.2 Deploy CI/CD Demo** ##
 ### Clone the GitHub Repo 
 
 To deploy the CI/CD demo, you need to download the required deployment files from GitHub repository `https://github.com/nichochen/openshift-cd-demo.git`.
