@@ -1,4 +1,4 @@
-
+## **2.6 Create Network Policy** ##
 Now that you have the application working, it is time to apply some security hardening. You'll use [network policies](https://docs.openshift.com/aro/admin_guide/managing_networking.html#admin-guide-networking-networkpolicy) to restrict communication to the `rating-api`.
 
 ### Switch to the Cluster Console
