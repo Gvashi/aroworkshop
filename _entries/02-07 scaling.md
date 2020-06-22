@@ -1,4 +1,4 @@
-
+## **2.7 Scaling ARO Cluster** ##
 ### Scale the Azure Red Hat OpenShift cluster
 
 You can scale the number of application nodes in the cluster using the Command Prompt.
