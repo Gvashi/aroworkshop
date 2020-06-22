@@ -1,4 +1,4 @@
-
+## **2.3 Deploy MongoDB** ##
 ### Create mongoDB from template
 
 Azure Red Hat OpenShift provides a container image and template to make creating a new MongoDB database service easy. The template provides parameter fields to define all the mandatory environment variables (user, password, database name, etc) with predefined defaults including auto-generation of password values. It will also define both a deployment configuration and a service.
