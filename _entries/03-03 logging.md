@@ -1,4 +1,4 @@
-## **3.4 Logging and Metrics** ##
+## **3.3 Logging and Metrics** ##
 
 Assuming you can access the application via the Route provided and are still logged into the CLI (please go back to part 2 if you need to do any of those) we'll start to use this application.  As stated earlier, this application will allow you to "push the buttons" of OpenShift and see how it works.  We will do this to test the logs.
 
