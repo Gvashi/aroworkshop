@@ -1,4 +1,4 @@
-## 2.1 Application Overview ##
+## **2.1 Application Overview** ##
 You will be deploying a ratings application on Azure Red Hat OpenShift.
 
 ![Application diagram](../media/app-overview.png)
