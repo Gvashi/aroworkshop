@@ -50,8 +50,7 @@ Equivalently you can also create this new project using the web UI by selecting 
 
 ### Download YAML configuration
 
-Download the Kubernetes deployment object yamls from the following locations to your Azure Cloud Shell, in a directory of your choosing (just remember where you placed them for the next step).
-
+Find tha yaml files downloaded in  **Downloads** Folder.
 
 Feel free to open them up and take a look at what we will be deploying. For simplicity of this lab we have placed all the Kubernetes objects we are deploying in one "all-in-one" yaml file.  Though in reality there are benefits to separating these out into individual yaml files.
 
