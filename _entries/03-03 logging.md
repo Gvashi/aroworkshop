@@ -43,6 +43,15 @@ You should see both the *stdout* and *stderr* messages.
 
 One can use the native Azure service, Azure Monitor, to view and keep application logs along with metrics. This lab assumes that the cluster was already configured to use Azure Monitor for application logs at cluster creation.  If you want more information on how to connect this for a new or existing cluster see the docs here: (https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-azure-redhat-setup)
 
+1.	On the Azure portal menu or from the Home page, select Azure Monitor. Under the Insights section, select Containers.
+2.	On the Monitor - containers page, select Non-monitored clusters.
+3.	From the list of non-monitored clusters, find the cluster in the list and click Enable. You can identify the results in the list by looking for the value ARO under the column CLUSTER TYPE.
+4.	On the Onboarding to Azure Monitor for containers page, if you have an existing Log Analytics workspace in the same subscription as the cluster, select it from the drop-down list.
+The list preselects the default workspace and location that the cluster is deployed to in the subscription.
+
+![workspace](../media/managedlab/workspace.png)
+
+After you've enabled monitoring, it might take about 15-20 minutes before you can view health metrics for the cluster.
 
 Access the azure portal at (https://portal.azure.com/)
 
